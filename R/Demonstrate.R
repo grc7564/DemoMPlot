@@ -9,10 +9,13 @@
 #' @param make.MAE.plot Option to make MAE by Population Structure and Heritability plot. Default set to TRUE
 #' @param MAE.plot.title A Character String: title of the MAE. Default set to
 #' "Mean MAE By Population Structure and Heritability"
-#' @param herit.strings
+#' @param herit.strings Details the strings to look for in filenames for determining the heritability 
+#' coefficients. Corresponds to the list in herit.values
 #' @param herit.values Sets the values for heritability. Default sets to 0.3, 0.4, 0.6.
-#' @param struct.strings
-#' @param struct.values
+#' @param struct.strings Details the strings to look for in filenames for determining population structure. 
+#' Corresponds to the list in _struct.values_. Example: list("PheHasStruct", "PheNPStruct")
+#' @param struct.values The list of values for population structure. Generally Boolean (i.e. TRUE or FALSE). 
+#' Value order should correspond to the _struct.strings_ variable. Example (to go with previous): list(TRUE, FALSE)
 #' @keywords graph demonstrate GWAS validate knowntruth
 #' @export
 #' @examples
