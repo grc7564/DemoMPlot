@@ -4,7 +4,7 @@ Version: 0.9
 Date: 2015-06-26
 Authors@R: c(
 	person("Dustin", "Landers", role = "aut"),
-	person("Stephen", "Talley", role=c("aut", "cre", email = "labstapleton@gmail.com")), 
+	person("Stephen", "Talley", role=c("aut", "cre"), email = "labstapleton@gmail.com"), 
 	person("Grace", "Cowen", role=c("aut", "cre")))
 Description: This package has three main functions including MPlot, Demonstrate, and Demonstrate2. The MPlot function uses output from a GWAS 
     tool to create a Manhattan Plot where the -log of the pvalue is plotted by genetic distance and effect size. Gray points represent SNPs that 
