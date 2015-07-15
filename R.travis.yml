@@ -1,2 +1,16 @@
 language: r
 sudo: required
+
+apt_packages: 
+  - r-base-dev
+  - gdebi-core
+  - libcurl4-gnutls-dev
+  - libxml2-dev
+
+r_binary_packages:
+  - testthat
+  - devtools
+  - ggplot2
+
+r_github_packages:
+  - grc7564/DemoMPlot
